@@ -25,7 +25,7 @@ export default function Home() {
           color={item.color}
         >
 
-          <Image src={imageMap[item.image]} alt={item.title} className='size-36 mb-8 block ' />
+          <Image src={imageMap[item.image]} alt={item.title} className='size-28 mb-8 block ' />
 
         </Card>
       )
