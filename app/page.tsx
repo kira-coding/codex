@@ -14,9 +14,9 @@ const imageMap:Record<number,StaticImageData>= {
 export default function Home() {
 
   return (
-    <div className='flex flex-col font-mono min-h-screen items-center'>
+    <div className='flex flex-col font-mono min-h-screen  gap-3 items-center'>
     
-    <div className='flex  items-center justify-center gap-5 w-full m-12'>
+    <div className='flex  items-center justify-center gap-5 w-full mt-4'>
       {data.map((item, index) => (
         <Card
           key={index}
