@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className='flex flex-col font-mono min-h-screen  gap-3 items-center'>
     
-    <div className='flex  items-center justify-center gap-5 w-full mt-4'>
+    <div className='flex  items-center justify-center gap-5 w-full mt-12 mb-7'>
       {data.map((item, index) => (
         <Card
           key={index}
@@ -25,7 +25,7 @@ export default function Home() {
           color={item.color}
         >
 
-          <Image src={imageMap[item.image]} alt={item.title} className='size-28 mb-8 block ' />
+          <Image src={imageMap[item.image]} alt={item.title} className='size-20 mb-8 block ' />
 
         </Card>
       )
@@ -34,7 +34,7 @@ export default function Home() {
 
     </div>
     <Card description='LEARN MORE ABOUT CODEX' orientation={false} color={"rgb(229 255 94)"}>
-      <Image src={logo} alt='codex company logo'></Image>
+      <Image src={logo} className='rounded-xs' alt='codex company logo'></Image>
     </Card>
     </div>
   );
