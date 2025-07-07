@@ -1,0 +1,22 @@
+[
+    {
+        "image":3,
+        "title":"THE FASTEST, MOST ACCURATE CHART DATA",
+        "description":"Everything required to quickly populate accurate and comprehensive pricing charts.",
+        "color":"rgb(183 179 162)"
+    },
+
+    {
+        "image":2,
+        "title":"REAL-TIME & HISTORICAL USD PRICING DATA",
+        "description":"Get the exact value of every real-time or historical on-chain transaction.",
+        "color":"rgb(229 255 94)"
+    },
+  {
+    "image":1,
+    "title":"INSTANT, REAL-TIME AGGREGATE DATA",
+    "description":"Volume, liquidity, unique wallets, and more available instantly for multiple timeframes.",
+    "color":"rgb(249 249 249)"
+  }
+
+]
